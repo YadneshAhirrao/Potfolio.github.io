@@ -206,6 +206,25 @@ section {
   gap: 1rem;
 }
 
+/*Floating Messege*/
+
+.float-message {
+  position: fixed;
+  z-index: 1001;
+  max-width: 280px;
+  bottom: 20px;
+  right: 20px;
+  padding: 30px;
+  color: #444;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.float-message-inner {
+  position: relative;
+}
+
 /* ICONS */
 
 .icon {
@@ -295,7 +314,7 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  flex:1;
+  flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
